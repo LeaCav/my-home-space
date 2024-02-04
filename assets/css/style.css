@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'creato-display';
+    src: url(../fonts/creato_display/CreatoDisplay-Regular.woff2), url(../fonts/creato_display/CreatoDisplay-Medium.woff2), url(../fonts/creato_display/CreatoDisplay-Light.woff2),
+    url(../fonts/creato_display/CreatoDisplay-Bold.woff2), url(../fonts/creato_display/CreatoDisplay-Regular.otf), url(../fonts/creato_display/CreatoDisplay-Medium.otf),
+    url(../fonts/creato_display/CreatoDisplay-Light.otf), url(../fonts/creato_display/CreatoDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'garet';
+    src: url(../fonts/garet/Garet-Book.woff2), url(../fonts/garet/Garet-Heavy.woff2), url(../fonts/garet/Garet-Book.otf), url(../fonts/garet/Garet-Heavy.otf);
+}
+
+*{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    font-family: 'creato-display';
+    font-size: medium;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+    div{
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+        nav{
+            width: 100px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        nav:hover{
+            color: white;
+            background-color: #592A2E;
+        }
+    h1{
+        width: fit-content;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 70px;
+        font-weight: 400;
+        text-transform: capitalize;
+        
+        
+    }
+        i{
+            width: fit-content;
+            font-family: 'garet';
+            font-size: larger;
+            color: #592A2E;
+            font-style: normal;
+            font-weight:bolder;
+        }
+
+main{
+
+}
+
+footer{
+
+}
