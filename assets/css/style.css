@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'garet';
-    src: url(../fonts/garet/Garet-Book.woff2), url(../fonts/garet/Garet-Heavy.woff2), url(../fonts/garet/Garet-Book.otf), url(../fonts/garet/Garet-Heavy.otf);
+    font-family: 'renogare';
+    src:url(../fonts/renogare/Renogare-Regular.woff2), url(../fonts/renogare/Renogare-Regular.otf) ;
 }
 
 *{
@@ -57,18 +57,16 @@ header{
         flex-direction: row;
         align-items: center;
         font-size: 70px;
-        font-weight: 400;
+        font-weight: bold;
         text-transform: capitalize;
-        
-        
     }
         i{
             width: fit-content;
-            font-family: 'garet';
+            font-family: 'renogare';
             font-size: larger;
             color: #592A2E;
             font-style: normal;
-            font-weight:bolder;
+            font-weight:400;
         }
 
 main{
