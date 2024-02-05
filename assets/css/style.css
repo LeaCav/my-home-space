@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'creato_display';
-    src:  url(../fonts/creato_display/CreatoDisplay-Medium.woff2), url(../fonts/creato_display/CreatoDisplay-Bold.woff2), url(../fonts/creato_display/CreatoDisplay-Light.woff2),,
+    src:  url(../fonts/creato_display/CreatoDisplay-Medium.woff2), url(../fonts/creato_display/CreatoDisplay-Bold.woff2), url(../fonts/creato_display/CreatoDisplay-Light.woff2),
     url(../fonts/creato_display/CreatoDisplay-Regular.woff2), url(../fonts/creato_display/CreatoDisplay-Regular.otf), url(../fonts/creato_display/CreatoDisplay-Bold.otf), url(../fonts/creato_display/CreatoDisplay-Light.otf),
     url(../fonts/creato_display/CreatoDisplay-Medium.otf) ;
 }
 
 @font-face {
     font-family:'renogare' ;
-    src: url(../fonts/renogare/Renogare-Regular.woff2), url(../fonts/renogare/Renogare-Regular.otf)
+    src: url(../fonts/renogare/Renogare-Regular.woff2), url(../fonts/renogare/Renogare-Regular.otf);
 }
 
 *{
@@ -78,7 +78,7 @@
             overflow: hidden;
         }
 
-        #section{
+        .section{
             height: auto;
             margin: 20px 0;
             display: flex;
@@ -153,7 +153,7 @@
                         align-items: start;
                         clear: right;
                     }
-                        ul img{
+                        li img{
                             width: 10px;
                             margin: 0;
                             height:auto;
