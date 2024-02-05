@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family:'garet' ;
-    src: url(../fonts/garet/Garet-Heavy.woff2), url(../fonts/garet/Garet-Book.woff2), , url(../fonts/garet/Garet-Book.otf), url(../fonts/garet/Garet-Heavy.otf);
+    font-family:'renogare' ;
+    src: url(../fonts/renogare/Renogare-Regular.woff2), url(../fonts/renogare/Renogare-Regular.otf)
 }
 
 *{
@@ -61,7 +61,7 @@
             i{
                 width: auto;
                 margin: 30px 0;
-                font-family:'garet' ;
+                font-family:'renogare' ;
                 font-size: 60px;
                 font-style:normal;
                 text-transform: capitalize;
