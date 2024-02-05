@@ -47,6 +47,7 @@
             }
         
         h1{
+            margin: 30px 0;
             font-size: 60px;
             font-weight: 400;
             text-transform: capitalize;
@@ -59,7 +60,7 @@
         }
             i{
                 width: auto;
-                margin: 0;
+                margin: 30px 0;
                 font-family:'garet' ;
                 font-size: 60px;
                 font-style:normal;
@@ -173,4 +174,33 @@
                     border: 0;
                     font-size: small;
                     align-content: center;
+                    cursor: pointer;
                 }
+
+    footer{
+        height: 80px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        border-top: solid 1px black ;
+    }
+        small{
+            margin: 0;
+            font-size: small;
+        }
+
+    footer a{
+        width: 30px;
+        height: auto;
+        margin: 5px;
+
+    }
+    footer a img{
+        width: 100%;
+        height: 100%; 
+    }
+
+    footer a:hover{
+    opacity: 0.8;
+    }
